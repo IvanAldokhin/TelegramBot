@@ -16,7 +16,6 @@ public class TelegramBot extends TelegramLongPollingBot {
         if (update.hasMessage() && update.getMessage().hasText()) {
             String message = update.getMessage().getText();
             String response = ChatBot.process(message);
-          
             sendText(update.getMessage().getChatId(), response);
         }
     }
