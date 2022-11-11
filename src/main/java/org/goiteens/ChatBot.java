@@ -21,6 +21,7 @@ public class ChatBot {
         professions = new LinkedHashMap<>();
         professions.put("Designer", 20000);
         professions.put("Java", 55000);
+        professions.put("Python",60000);
         professions.put("Frontend", 40000);
     }
 
@@ -28,6 +29,8 @@ public class ChatBot {
         dreams = new LinkedHashMap<>();
         dreams.put("Машин", 260000);
         dreams.put("iPhone", 27000);
+        dreams.put("Bicykle", 1000);
+        dreams.put("Лептоп",15000);
     }
     
     public static String process(String message) {
